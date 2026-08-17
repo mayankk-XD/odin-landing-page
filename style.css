@@ -19,11 +19,12 @@ button {
 
 .header {
     background: #1F2937;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
 
 .header .Logo,
@@ -61,24 +62,49 @@ button {
     height: 400px;
     display: flex;
     align-items: center;       
-    justify-content: center;   
+    justify-content: center;
+    gap: 40px;
 }
 
 .flex-container .item2 {
     background: rgb(169, 134, 199);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 300px;
 }
 
 .flex-container .item3 {
-    background: rgb(47, 26, 66);
-    border: 1px solid black;
+    background:  #E5E7EB;
+    /* border: 1px solid black; */
     height: 300px;
+}
+.item3 {
+    background: #E5E7EB;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3-inner {
+    width: 800px;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.credits{
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .flex-container .item4 {
     background: rgb(24, 8, 39);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 300px;
 }
 
@@ -92,15 +118,16 @@ button {
 .sub1{
     background-color: #1F2937;
     font-family: "Roboto", sans-serif;
-    font-size: 28px;
+    font-size: 48px;
     color: #F9FAF8;
 }
 .sub1 p{
     font-size: 18px;
 }
+
 .flex-container .footer {
     background: #1F2937;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 70px;
     align-items: center;
     justify-content: center;
