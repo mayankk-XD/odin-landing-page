@@ -9,7 +9,7 @@ button {
     font-family: "Roboto", sans-serif;
     padding: 5px 25px;
     border-radius: 6px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .flex-container {
@@ -67,20 +67,53 @@ button {
 }
 
 .flex-container .item2 {
-    background: rgb(169, 134, 199);
+    background: rgb(255, 255, 255);
     /* border: 1px solid black; */
-    height: 300px;
+    height: 400px;
+}
+.item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.cards > div {
+    width: 150px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+    font-size: 14px;
+}
+
+.cards > div > div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.cards p {
+    margin-top: 8px;
+}
+.heading{
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .flex-container .item3 {
     background:  #E5E7EB;
     /* border: 1px solid black; */
-    height: 300px;
+    height: 350px;
 }
 .item3 {
     background: #E5E7EB;
-    height: 300px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,11 +136,35 @@ button {
 }
 
 .flex-container .item4 {
-    background: rgb(24, 8, 39);
+    background: rgb(245, 243, 246);
     /* border: 1px solid black; */
     height: 300px;
 }
+.item4 {
+    background: rgb(245, 243, 246);
+    height: 300px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item4 > div {
+    height: 120px;
+    width: 800px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.signup-box {
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.sign-up-button{
+    border: 1px solid white;
+}
 .sub1, .sub2 {
     background-color: red;
     /* border: 1px solid black; */
